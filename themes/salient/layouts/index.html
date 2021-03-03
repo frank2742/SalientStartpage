@@ -13,7 +13,7 @@
 
         {{ if .Site.Params.Search }}
         <div class="flex py-8 md:py-16 max-w-4xl mx-auto justify-center">
-            <form action="https://duckduckgo.com/?q=" class="flex flex-1">
+            <form action="https://www.google.com/search?q=" class="flex flex-1">
                 <input type="text" autofocus="" name="q" id="q"
                     class="focus:border-{{ .Site.Params.Colors.Highlight }}-300 bg-white dark:bg-gray-800 p-2 flex-1 rounded-md sm:text-sm border-{{ .Site.Params.Colors.Highliht }}-300 text-{{ $.Site.Params.Colors.Text }}-500 dark:text-gray-200 text-lg "
                     placeholder="Search" />
@@ -39,7 +39,6 @@
             var date = new Date();
             var hours = date.getHours();
             var minutes = date.getMinutes();
-            var seconds = date.getSeconds();
 
             // Check whether AM or PM 
             var newformat = hours >= 12 ? 'PM' : 'AM';
@@ -50,9 +49,8 @@
             // To display "0" as "12" 
             hours = hours ? hours : 12;
             minutes = minutes < 10 ? '0' + minutes : minutes;
-            seconds = seconds < 10 ? '0' + seconds : seconds;
 
-            clock.textContent = hours + ":" + minutes + ":" + seconds + " " + newformat;
+            clock.textContent = hours + ":" + minutes + ":" + newformat;
         }
         time();
         setInterval(time, 1000);
