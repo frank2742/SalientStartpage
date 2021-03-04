@@ -50,7 +50,7 @@
             hours = hours ? hours : 12;
             minutes = minutes < 10 ? '0' + minutes : minutes;
 
-            clock.textContent = hours + ":" + minutes + newformat;
+            clock.textContent = hours + ":" + minutes + " " + newformat;
         }
         time();
         setInterval(time, 1000);
