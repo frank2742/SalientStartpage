@@ -20,7 +20,7 @@
                 {{ if isset $item "logo" }}
                     <img class="mr-2" width="20" src="{{ $item.logo }}" alt="{{ $item.name }}">
                 {{ else if isset $item "icon" }}
-                    <div class="mr-2" style="width: 20px; height: 20px"><i class="{{ $item.icon }}"></i></div>
+                    <div class="mr-2" style="width: 20px; height: 20px; font-size: 1.25em"><i class="{{ $item.icon }}"></i></div>
                 {{ else }}
                     {{ $itemPath := printf "favicons/%s*" $item.name }}
                     {{ $itemFavicon := resources.GetMatch $itemPath }}
