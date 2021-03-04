@@ -67,7 +67,7 @@ params:
           url: "https://studium.ohmportal.de"
         - name: "Moodle"
           url: "https://elearning.ohmportal.de"
-        - name: "My Ohm"
+        - name: "My Ohmportal"
           url: "https://my.ohmportal.de"
 
     - name: "Reading"
