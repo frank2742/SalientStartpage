@@ -13,7 +13,7 @@
     <div class="flex flex-col">
         {{ range $index, $item := .items }}
 
-        <a href="{{ $item.url }}"
+        <a href="{{ $item.url }}" target="_blank"
             class="p-2 flex flex-1 flex-shrink-0 flex-row max-w-sm rounded-md text-{{ $.Site.Params.Colors.Text }}-500 dark:text-gray-200 hover:text-white hover:bg-{{ $.Site.Params.Colors.Highlight }}-700 dark:hover:bg-{{ $.Site.Params.Colors.Text }}-900 focus:outline-none focus:ring-2 focus:ring-{{ $.Site.Params.Colors.Highlight }}-600 focus:ring-opacity-50">
             {{ with $item.name }}
             <div class="flex">
