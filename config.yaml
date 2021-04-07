@@ -55,8 +55,6 @@ params:
           url: "http://netflix.com"
         - name: "Disney+"
           url: "https://disneyplus.com"
-        - name: "Amazon Prime"
-          url: "https://www.amazon.de/Amazon-Video/"
 
     - name: "Uni"
       items:
