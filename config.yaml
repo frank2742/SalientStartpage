@@ -68,15 +68,6 @@ params:
         - name: "My Ohmportal"
           url: "https://my.ohmportal.de"
 
-    - name: "Reading"
-      items:
-        - name: "Reddit"
-          url: "https://www.reddit.com"
-        - name: "Pocket"
-          url: "https://getpocket.com"
-        - name: "Tagesschau"
-          url: "https://www.tagesschau.de/"
-
     - name: "Banking"
       items:
         - name: "Sparkasse"
@@ -86,6 +77,17 @@ params:
         - name: "PayPal"
           icon: "fab fa-paypal"
           url: "https://www.paypal.com/de/home"
+
+    - name: "Other"
+      items:
+        - name: "Reddit"
+          url: "https://www.reddit.com"
+        - name: "Pocket"
+          url: "https://getpocket.com"
+        - name: "Tagesschau"
+          url: "https://www.tagesschau.de/"
+        - name: "Amazon"
+          url: "https://www.amazon.de"
 
 # Do not change
 build:
