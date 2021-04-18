@@ -122,3 +122,5 @@ dist
 hugo_stats.json
 assets/favicons
 config-prod.yaml
+
+.idea
