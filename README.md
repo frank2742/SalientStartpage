@@ -16,8 +16,8 @@ The startpage itself can be rendered to an `.html` file with a directoy of image
 You can download and test this code by doing
 
 ```
-git clone https://github.com/qcasey/SalientStartpage
-cd SalientStartpage
+git clone https://github.com/frank2742/Homepage
+cd Homepage
 npm install
 npm run serve
 ```
