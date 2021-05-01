@@ -24,9 +24,9 @@ params:
     - name: "Twitter"
       logo: "/images/twitter.png"
       url: "https://twitter.com"
-    - name: "Speedtest"
-      logo: "/images/speedtest.png"
-      url: "http://speedtest.net"
+    - name: "Wiki"
+      logo: "/images/wikijs.png"
+      url: "https://wiki.thefluegel.me"
     - name: "Github"
       logo: "/images/github.png"
       url: "https://github.com/"
@@ -36,6 +36,8 @@ params:
       items:
         - name: "Fritz!Box"
           url: "http://192.168.178.1"
+        - name: "Speedtest"
+          url: "http://speedtest.net"
         - name: "Pi-Hole"
           url: "http://192.168.178.39/admin"
         - name: "Uberspace"
@@ -47,8 +49,6 @@ params:
 
     - name: "Media"
       items:
-        - name: "YouTube"
-          url: "https://youtube.com"
         - name: "Moments"
           url: "http://nas.thefluegel.me/moments"
         - name: "Netflix"
