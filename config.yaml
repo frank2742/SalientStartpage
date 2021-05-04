@@ -42,8 +42,6 @@ params:
           url: "http://192.168.178.39/admin"
         - name: "Uberspace"
           url: "https://dashboard.uberspace.de"
-        - name: "NAS"
-          url: "https://nas.thefluegel.me"
         - name: "PlexPy"
           url: "http://192.168.178.35:8011"
 
